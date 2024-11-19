@@ -1,0 +1,5 @@
+a,b=map(int,input().split(' '))
+c=100
+d=(b+c-1)//c
+e=max(0,d-a)
+print(e)
