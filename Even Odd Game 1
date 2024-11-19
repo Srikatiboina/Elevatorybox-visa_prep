@@ -1,0 +1,11 @@
+a=int(input())
+b=str(a)
+c=list(b)
+n=0
+for i in range(0,len(c)):
+    n=int(c[i])+n
+    
+if n%2==0:
+    print("Vignesh")
+else:
+    print("Charan")
